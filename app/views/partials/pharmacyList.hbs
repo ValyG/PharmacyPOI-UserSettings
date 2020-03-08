@@ -1,0 +1,25 @@
+<section class="ui raised segment">
+    <div class="ui grid">
+        <aside class="eight wide column">
+            <img src="images/image.jpg" class="ui big image">
+        </aside>
+        <article class="eight wide column">
+            <table class="ui celled table segment">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each creates}}
+                    <tr>
+                        <td> {{name}} </td>
+                        <td> {{description}} </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </article>
+    </div>
+</section>
